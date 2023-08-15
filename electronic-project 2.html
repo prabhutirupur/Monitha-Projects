@@ -1,0 +1,44 @@
+<h1>Project name:led blinking</h1>
+<h3>Components</h3>
+<p>arduino   1x</p>
+<p>motor   1x</p>
+<p>USB cable</p>
+<p>220 resister</p>
+<br />
+<h3>Connect the components in the following digram</h3>
+<img src="C:\Users\P&D4\Desktop\Monitha Projects\Neat Bigery-Crift-1_page-0001(1).jpg" height="500" width="500" />
+<br />
+<h3>Upload the following code to the arduino</h3>
+<address>
+    Define the pin number for the motor
+    <br />
+    const int motorPin = 13;
+    <br />
+    <br />
+    void setup() {
+    <br />
+    // Initialize the digital pin as an output
+    <br />
+    pinMode(motorPin, OUTPUT);
+    <br />
+    }
+    <br />
+    <br />
+    void loop() {
+    <br />
+    // Turn the motor on
+    <br />
+    digitalWrite(motorPin, HIGH);
+    <br />
+    delay(1000); // Wait for 1 second
+    <br />
+    <br />
+    <br />
+    // Turn the motor off
+    <br />
+    digitalWrite(motorPin, LOW);
+    <br />
+    <br />
+    delay(1000); // Wait for 1 second
+    }
+</address>

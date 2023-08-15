@@ -1,0 +1,44 @@
+<h1>Project name:led blinking</h1>
+<h3>Components</h3>
+<p>arduino   1x</p>
+<p>led   1x</p>
+<p>USB cable</p>
+<p>220 resister</p>
+<br />
+<h3>Connect the components in the following digram</h3>
+<img src="C:\Users\P&D4\Downloads\Neat Bigery-Crift-1_page-0001(1).jpg" height="1000" width="1000" />
+<br />
+<h3>Upload the following code to the arduino</h3>
+<address>
+Define the pin number for the LED
+<br />
+const int ledPin = 13;
+<br />
+<br />
+void setup() {
+<br />
+  // Initialize the digital pin as an output
+<br />
+  pinMode(ledPin, OUTPUT);
+<br />
+}
+<br />
+<br />
+void loop() {
+<br />
+  // Turn the LED on
+<br />
+  digitalWrite(ledPin, HIGH);
+<br />
+  delay(1000); // Wait for 1 second
+<br />
+<br />
+<br />
+  // Turn the LED off
+<br />
+  digitalWrite(ledPin, LOW);
+<br />
+<br />
+  delay(1000); // Wait for 1 second
+}
+</address>
